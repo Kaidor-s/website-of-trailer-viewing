@@ -1,0 +1,3 @@
+AddDefaultCharset utf8
+AddDefaultCharset UTF-8
+php_value error_reporting 7
