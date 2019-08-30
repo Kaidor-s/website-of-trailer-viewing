@@ -1,0 +1,5 @@
+.exitForm{
+	height: 21px;
+	position: absolute;
+	z-index: 1000;
+}
