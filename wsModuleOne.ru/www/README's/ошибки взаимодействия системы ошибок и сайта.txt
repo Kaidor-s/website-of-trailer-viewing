@@ -1,0 +1,7 @@
+1) Нет взаимодействия между dataSett в php/script.php и form/form.php
+2) Нет взаимодействия между dataSett в php/adminAPI/workWithStoryAPI.php и 
+всеми экземплярами страниц в pagesStories шаблона templates/pageStory.php
+3) Поиск ошибки dataSett.eddition_story.notFound в php/adminAPI/workWithStoryAPI.php
+никак не реализован
+4) Отсутствует реализация поиска и сами данные в dataSett - вся система ошибок
+при удалении сюжета в php/adminAPI/workWithStoryAPI.php
