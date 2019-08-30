@@ -1,0 +1,1 @@
+<div id="image_creatStroty"><img src="<?=$data["story_image"]?>" alt="Постер фильма"/></div>
