@@ -369,6 +369,7 @@ body span{ /*Отмена выделеня текста в тегах span*/
 	text-decoration: none;
 	color: black;
 	background-color: white;
+	max-height: 300px;
 }
 .resulrRequestBlock:hover{
 	border-left: 7px solid #FFCF1A;
@@ -390,11 +391,11 @@ body span{ /*Отмена выделеня текста в тегах span*/
 .resulrRequestBlock .header{
 	font: 24px fantasy;
 	position: relative;
-	top: -22px;
+	top: -16px;
 }
 .resulrRequestBlock .dateVal{
 	position: relative;
-	top: -42px;
+	top: -36px;
 	border: 2px solid orange;
 	border-radius: 16px;
 	background-color: white;
@@ -404,15 +405,28 @@ body span{ /*Отмена выделеня текста в тегах span*/
 	font-family: sans-serif;
 	text-align: justify;
 	height: 108px;
-	overflow: hidden;
+	overflow: auto;
 	position: relative;
 	top: -38px;
+	padding: 2px 6px;
+}
+.resulrRequestBlock .descriprionText::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+.resulrRequestBlock .descriprionText::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+.resulrRequestBlock .descriprionText::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
 .resulrRequestBlock #points{
 	position: relative;
 	top: -56px;
 	font-weight: 1000;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
+	margin-left: -154px;
 	text-align: center;
 	font-size: 22px;
 }
